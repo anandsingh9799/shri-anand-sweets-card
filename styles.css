@@ -144,13 +144,8 @@ h1 {
   letter-spacing: 0.08em;
 }
 
-.qr-placeholder {.catalogue-qr {
-  width: 220px;
-  max-width: 70%;
-  height: auto;
-  display: block;
-  margin: 15px auto;
-}
+.qr-placeholder{
+
   margin-top: 10px;
   border: 1px dashed #c9b889;
   border-radius: 12px;
@@ -161,7 +156,14 @@ h1 {
   text-align: center;
   gap: 8px;
 }
-
+.catalogue-qr {
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 180px !important;
+  display: block !important;
+  margin: 10px auto !important;
+  object-fit: contain;
+}
 .qr-placeholder p:first-child {
   font-weight: 700;
   color: var(--green);
