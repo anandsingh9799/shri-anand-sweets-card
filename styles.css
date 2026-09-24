@@ -144,7 +144,13 @@ h1 {
   letter-spacing: 0.08em;
 }
 
-.qr-placeholder {
+.qr-placeholder {.catalogue-qr {
+  width: 220px;
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+}
   margin-top: 10px;
   border: 1px dashed #c9b889;
   border-radius: 12px;
